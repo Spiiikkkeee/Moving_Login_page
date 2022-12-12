@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Merriweather:ital,wght@1,900&family=Oswald:wght@300;500&family=Poppins:ital,wght@0,300;0,400;1,600&family=Signika&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(/images/hacker\ wallpaper.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 31.25em;
+    background-color: transparent;
+    padding: 1.4em 3.75em;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    border-radius: 0.7em;
+    transform: translate(-50%, -30%);
+    box-shadow: 0 1em 4em rgba(13, 216, 199, 0.3);
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color:whitesmoke;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+
+input,
+#sumbit {
+    border: none;
+    outline: none;
+    display: block;
+}
+
+input {
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 2em;
+    font-size: 20px;
+    padding: 1em 0 0.5em 0.5em;
+    border-bottom: 2px solid black;
+    color: black;
+    text-shadow: green;
+}
+
+#sumbit {
+    position: relative;
+    left: 0;
+    font-size: 1.1em;
+    width: 7em;
+    background-color:blue;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.2em 0;
+    margin-top: 1em;
+    border-radius: 0.3em;
+
+}
+
+#message-ref {
+    font-size: 0.9em;
+    margin-top: 1.5em;
+    color: Red;
+    visibility: hidden;
+    text-shadow: 0 0 5px red,
+    0 0 25px red,
+    0 0 50px red,
+    0 0 100px red;
+}
+
+.spike{
+    color: whitesmoke;
+    float: right;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.spike:hover{
+    color: whitesmoke;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
